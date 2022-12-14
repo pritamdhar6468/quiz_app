@@ -222,6 +222,19 @@ body{
     border-color: #a81515;
     background: #d4edda;
  }
+ .option_list .option.correct{
+    color: #1bc353;
+    background: #d4edda;
+    border-color: #d4edda;
+ }
+ .option_list .option.incorrect{
+    color: #a81515;
+    background: #d4edda;
+    border-color: #d4edda;
+ }
+ .option_list .option.disabled{
+    pointer-events: none;
+ }
 
  .quiz_box footer{
     height: 60px;
