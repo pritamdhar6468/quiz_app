@@ -167,6 +167,15 @@ body{
     border: 1px solid #343a40;
     user-select: none;
 }
+
+.quiz_box header .time_line{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 3px;
+    width: 50%;
+    background: #007bff;
+}
 .quiz_box section{
     padding: 25px 30px 20px 30px;
     background: #fff;
